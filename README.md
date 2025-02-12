@@ -34,12 +34,6 @@ Optional. If set to `none`, always use exit code 0 for reviewdog. Otherwise, exi
 Possible values: [`none`, `any`, `info`, `warning`, `error`]
 Default is `none`.
 
-### `fail_on_error`
-
-Deprecated, use `fail_level` instead.
-Optional. Exit code for reviewdog when errors are found [`true`, `false`].
-Default is `false`.
-
 ### `filter_mode`
 
 Optional. Filtering mode for the reviewdog command [`added`, `diff_context`, `file`, `nofilter`].
